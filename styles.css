@@ -1,0 +1,208 @@
+.outer-box{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 200px 200px;
+    grid-auto-rows: 200px 200px ;
+    gap: 20px;
+    margin-top: 130px;
+    margin-bottom: 10px;
+}
+.title{
+      font-family: "Playfair", serif;
+}
+.image{
+    background-color: pink;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    transition: all 50ms ease-in-out;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.image1{
+    grid-template-rows:100px 200px ;
+    background-image: url("./Images/Thanjavur.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-row: span 2;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }
+}
+.image2{
+    background-image: url("./Images/dharmapuri-1654194392_6e3e3cdfdd3337059dd5.webp");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image3{
+    background-image: url("./Images/indian-gate.webp");
+    background-size: cover;
+    background-position: center;   
+    grid-column: span 2;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image4{
+    background-image: url("./Images/kollam-jatayu-nature-park.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image5{
+    background-image: url("./Images/Munnar.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image6{
+    background-image: url("./Images/mysore-palace.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image7{
+    background-image: url("./Images/large_1.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-row: span 2;
+    grid-column:span 2 ;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image8{
+    background-image: url("./Images/rameshwaram.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image9{
+    background-image: url("./Images/nahargarh-fort.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image10{
+    background-image: url("./Images/gurudongmar.webp");
+    background-size: cover;
+    background-position: center;
+    grid-row: span 2;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image11{
+    background-image: url("./Images/water-palce.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image12{
+    background-image: url("./Images/Bali.jpg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image13{
+    background-image: url("./Images/Dal-Lake-Most.jpg");
+    background-size: cover;
+    grid-column: span 2;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image14{
+    background-image: url("./Images/Alleppey.jpg");
+    background-size: cover;
+    grid-column: span 2;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image15{
+    background-image: url("./Images/mangroves.jpg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image16{
+    background-image: url("./Images/Beautiful-Scenic-places-in-India.jpeg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+
+@media(max-width:600px){
+    .outer-box{
+    grid-template-columns: repeat(1,1fr); 
+    grid-template-rows: 300px 300px;
+    grid-auto-rows: 300px 300px ;
+    gap: 20px;           
+    }
+    .image{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+
+
+
+
+
+
+
+
