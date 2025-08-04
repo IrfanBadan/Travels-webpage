@@ -1,20 +1,23 @@
 .outer-box{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 200px 200px;
-    grid-auto-rows: 200px 200px ;
-    gap: 20px;
+    grid-template-columns: repeat(6,14%);
+    grid-template-rows: 100px 100px;
+    grid-auto-rows: 100px 100px ;
+    gap: 10px;
     margin-top: 115px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-left: 70px;
 }
 .title{
-      font-family: "Playfair", serif;
+    font-family: "Pacifico", cursive;
+}
+.nav-link{
+    font-family: "Playfair", serif;
+    font-size: 1.25em;
 }
 .image{
     background-color: pink;
     color: white;
-    font-size: 4rem;
-    text-align: center;
     transition: all 50ms ease-in-out;
 
     &:hover{
@@ -37,6 +40,7 @@
     background-image: url("./Images/dharmapuri-1654194392_6e3e3cdfdd3337059dd5.webp");
     background-size: cover;
     transition: all 1s ease-in-out;
+        /* grid-row: span 2; */
 
     &:hover{
         transform: (1.2);
@@ -46,7 +50,7 @@
     background-image: url("./Images/indian-gate.webp");
     background-size: cover;
     background-position: center;   
-    grid-column: span 2;
+    grid-row: span 2;
     transition: all 1s ease-in-out;
 
     &:hover{
@@ -58,6 +62,7 @@
     background-size: cover;
     background-position: center;
     transition: all 1s ease-in-out;
+        /* grid-row: span 2; */
 
     &:hover{
         transform: (1.2);
@@ -68,6 +73,7 @@
     background-size: cover;
     background-position: center;
     transition: all 1s ease-in-out;
+        grid-row: span 2;
 
     &:hover{
         transform: (1.2);
@@ -78,6 +84,7 @@
     background-size: cover;
     background-position: center;
     transition: all 1s ease-in-out;
+    /* grid-row: span 2; */
 
     &:hover{
         transform: (1.2);
@@ -88,7 +95,6 @@
     background-size: cover;
     background-position: center;
     grid-row: span 2;
-    grid-column:span 2 ;
     transition: all 1s ease-in-out;
 
     &:hover{
@@ -99,7 +105,7 @@
     background-image: url("./Images/rameshwaram.jpg");
     background-size: cover;
     background-position: center;
-    grid-column: span 2;
+    grid-row: span 2;
     transition: all 1s ease-in-out;
 
     &:hover{
@@ -111,6 +117,7 @@
     background-size: cover;
     background-position: center;
     transition: all 1s ease-in-out;
+        grid-row: span 2;
 
     &:hover{
         transform: (1.2);
@@ -132,6 +139,7 @@
     background-size: cover;
     /* background-position: center; */
     transition: all 1s ease-in-out;
+        grid-row: span 2;
 
     &:hover{
         transform: (1.2);
@@ -141,6 +149,7 @@
     background-image: url("./Images/Bali.jpg");
     background-size: cover;
     transition: all 1s ease-in-out;
+        grid-row: span 2;
 
     &:hover{
         transform: (1.2);
@@ -149,7 +158,7 @@
 .image13{
     background-image: url("./Images/Dal-Lake-Most.jpg");
     background-size: cover;
-    grid-column: span 2;
+        grid-row: span 2;
     transition: all 1s ease-in-out;
 
     &:hover{
@@ -159,7 +168,7 @@
 .image14{
     background-image: url("./Images/Alleppey.jpg");
     background-size: cover;
-    grid-column: span 2;
+    grid-row: span 2;
     transition: all 1s ease-in-out;
 
     &:hover{
@@ -170,6 +179,7 @@
     background-image: url("./Images/mangroves.jpg");
     background-size: cover;
     transition: all 1s ease-in-out;
+        grid-row: span 2;
 
     &:hover{
         transform: (1.2);
@@ -177,6 +187,55 @@
 }
 .image16{
     background-image: url("./Images/Beautiful-Scenic-places-in-India.jpeg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+        grid-row: span 2;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image17{
+    background-image: url("./Images/budget_destination.jpg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+        grid-row: span 2;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image18{
+    background-image: url("./Images/new-temple.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+        grid-row: span 2;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image19{
+    background-image: url("./Images/train-rides.jpg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image20{
+    background-image: url("./Images/opi-17.jpeg");
+    background-size: cover;
+    transition: all 1s ease-in-out;
+
+    &:hover{
+        transform: (1.2);
+    }    
+}
+.image21{
+    background-image: url("./Images/delhi-nyt-street.jpg");
     background-size: cover;
     transition: all 1s ease-in-out;
 
@@ -187,6 +246,7 @@
 
 @media(max-width:600px){
     .outer-box{
+    margin-left: 0px;    
     grid-template-columns: repeat(1,1fr); 
     grid-template-rows: 300px 300px;
     grid-auto-rows: 300px 300px ;
